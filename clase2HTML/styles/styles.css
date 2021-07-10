@@ -1,0 +1,58 @@
+/*
+
+estructura basica de los estilos de css
+
+clase/etiqueta{
+        estilo_a_aplicar: propiedad_del_estilo;
+}
+
+*/
+
+/*estilos generales*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* NavNar Styles */
+nav {
+  background-color: rgb(17, 111, 93);
+  padding: 30px;
+  color: cornsilk;
+}
+
+/*button heade styles*/
+.btn-header-style {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 2, 100);
+  padding: 10px;
+  border: 0;
+  border-radius: 6px;
+  margin-top: 50px; /* espaciado arriba
+    margin-bottom: ; espaciado abajo
+    margin-left: ; espaciado izquierda
+    margin-right: ; espaciado derecha*/
+}
+
+/*header container styles*/
+.overlay-div {
+  background-color: black;
+}
+.header-container {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.bg-header {
+  background-image: url("../img/burguer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  opacity: 0.4;
+}
