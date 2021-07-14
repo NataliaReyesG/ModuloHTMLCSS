@@ -1,0 +1,20 @@
+*{
+    font-family:Arial;
+} 
+
+.circle-section {
+    width: 90px;
+    height: 90px;
+    background-color:#808000 ;
+    border-radius: 50%;
+}   
+
+.circle-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+
+
+
