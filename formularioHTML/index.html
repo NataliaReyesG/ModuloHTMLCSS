@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión</title>
+
+    <!--Estilos CSS-->
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body class="bg-girasol">
+    <!-- Seccion login-->
+    <section class="screen-from">
+      <!--Contenedor de formulario-->
+
+      <div class="bg-white form-container">
+        <form> 
+          <div>
+            <h1 class="header-color">Iniciar Sesi&oacute;n</h1>
+          </div>
+
+          <!--inputs de incio de sesion -->
+
+          <div class="input-container">
+            <label for="usuario">Usuario</label>
+            <input type="text"
+            id="usuario"
+            placeholder="Ingresa tu usuario"/>
+          </div>
+
+          <div class="input-container">
+            <label for="password">Contraseña</label>
+            <input type="password"
+              id="password"
+              placeholder="Contraseña del usuario"/>
+          </div>
+
+          <div class="checkbox-container"> 
+          <input type="checkbox" id="check"/>
+          <label for="check">¿Deseas recuperar la contraseña?</label>
+          
+
+          <div class="btn-login-container">
+            <button type="submit">Iniciar sesion</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
