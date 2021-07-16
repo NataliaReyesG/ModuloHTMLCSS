@@ -56,3 +56,53 @@ nav {
   background-position-y: center;
   opacity: 0.4;
 }
+
+/* seccion tarjetas */
+.img-size {
+  width: 300px;
+  border-radius: 7px 7px 0 0;
+}
+.card-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.cards-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px;
+}
+
+.text-card {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.btn-order {
+  width: 60px;
+  text-decoration: none;
+  background-color: blue;
+  padding: 6px;
+  color: #fff;
+  border-radius: 6px;
+  margin-top: 20px;
+  transition: all 2s;
+}
+
+.btn-order:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.border-card {
+  border: solid gray 1px;
+  border-radius: 7px;
+}
+
+.description-card {
+  padding: 3rem;
+}
