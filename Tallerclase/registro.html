@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+</head>
+<body>
+  <h1>Registro</h1> 
+  <div>
+
+    <form>
+    <!--Campo para nombres-->
+    <label for="Texto">Nombres:</label>  
+    <input type="text" placeholder="Nombres:" id="Texto" name="Nombres">
+    
+    </div>
+    <!--Campo para apellidos-->
+    <label for="Texto">Apellidos:</label>  
+    <input type="text" placeholder="Apellidos:" id="Texto" name="Apellidos">
+
+</div>
+
+<div>
+  <!--Campo para email-->
+  <label for="Email">Email:</label>
+  <input type="email" placeholder="Email:" id="Email" name="Email">
+  </div>
+
+    <div>
+
+    <!--campo para edad-->
+    <label for="Edad">Edad:</label>
+    <input type="number" placeholder="Edad:" id="Edad" name="Edad" maxlength="2"/>
+
+    </div>
+
+    <div>
+
+      <!--campo para telefono-->
+      <label for="Numeros">Numeros:</label>
+      <input type="number" placeholder="Numero:" id="Numeros" name="numeros">
+  
+      </div>
+
+      <div>
+
+      <!--campo para usuario-->
+  
+      <div> 
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario"placeholder="Ingresa tu usuario"/>
+      </div>    
+    
+
+    <div>
+    <!--Campo para contraseña-->
+    <label for="Contraseña">Contraseña:</label>
+    <input type="password" placeholder="Contraseña:" id="Contraseña" name="Contraseña" minlength="10" required>    
+    </div>
+
+      <!--campo genero-->
+      <div>
+        <label for="Genero">Mujer</label> 
+        <input type="radio" id="Genero" name="Mujer" value="Genero">
+        
+        <label for="Genero">Hombre</label> 
+        <input type="radio" id="Genero" name="Hombre" value="Genero">
+        </div>
+      <!--boton para registrarse-->    
+       <input type="submit" value="Registrarse">   
+
+    </form>
+</body>
+</html>
