@@ -4,79 +4,93 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registro</title>
+  <title>Formulario de registro</title>
 
+  <!--Estilos CSS-->
   <link rel="stylesheet" href="./styles/styles2.css">
 
 </head>
+<form>
 <body class="bg-girasol">
-    <div>
 
-    <section class="screen-from"></section>
+ <!--seccion login -->
+ <section class="screen-form"> 
+ <div class="item">  
 
-    <form>
-      <div>
-        <h1 class="header-color">Registro</h1>
-      </div>
-     
-      
-    <!--Campo para nombres-->
-    <label for="Texto">Nombres:</label>  
-    <input type="text" placeholder="Nombres:" id="Texto" name="Nombres">
-    
-  </div>
-    <!--Campo para apellidos-->
-    <label for="Texto">Apellidos:</label>  
-    <input type="text" placeholder="Apellidos:" id="Texto" name="Apellidos">
-  </div>
+ <!--contenedor de formulario-->
 
-  <div>
-  <!--Campo para email-->
+ <div class="bg-white form-container">
+ <div>
+   <h1 class="header-color">Registro</h1>
+ </div>  
+ <!--inputs de inicio de sesion-->
+
+ <!--Nombres-->
+
+ <div class="input-container">
+  <label for="Nombres">Nombres:</label>
+  <input type="text" 
+  id="Nombres"
+  placeholder="Nombres"/>
+</div>
+<!--Apellidos-->
+<div class="input-container">
+  <label for="Apellidos">Apellidos:</label>
+  <input type="text"
+  id="Apellidos"
+  placeholder="Apellidos"/>
+</div>
+<!--Email-->
+<div>
   <label for="Email">Email:</label>
-  <input type="email" placeholder="Email:" id="Email" name="Email">
+  <input type="Text"
+  placeholder="Email"
+  id="Email"
+  name="Email">
+  </div>
+ <!--Edad-->
+ <div>
+ <label for="Edad">Edad:</label>
+ <input type="number" 
+ placeholder="Edad:" 
+ id="Edad" 
+ name="Edad">
+ </div> 
+ <!--Numero--> 
+ <div>
+ <label for="Numero">Numero:</label>
+ <input type="number"
+ placeholder="Numero:" 
+ id="Numero" 
+ name="Numero">
+ </div>
+<!--Usuario-->  
+<div class="input-container">
+  <label for="usuario">Usuario:</label>
+  <input type="text" 
+  id="usuario" 
+  placeholder="Usuario"/>
   </div>
 
-  <div>
-  <!--campo para edad-->
-  <label for="Edad">Edad:</label>
-  <input type="number" placeholder="Edad:" id="Edad" name="Edad" maxlength="2"/>
+<!--contraseña-->
+<div class="input-container">
+  <label for="password">Contraseña:</label>
+  <input type="password" 
+  id="password"
+ placeholder="Contraseña"/>
+ </div>
+ <!--sexo-->
+ <div>
+  <label for="Genero">Mujer:</label>  
+  <input type="radio"
+  name= "grupoa" 
+  id="Genero">
 
-  </div>
-
-  <div>
-  <!--campo para telefono-->
-  <label for="Numeros">Numeros:</label>
-  <input type="number" placeholder="Numero:" id="Numeros" name="numeros">
-  
+    <label for="Genero">Hombre:</label>  
+   <input type="radio"name= "grupoa" id="Genero">
    </div>
-
-      <div>
-
-      <!--campo para usuario-->
-  
-      <div> 
-        <label for="usuario">Usuario</label>
-        <input type="text" id="usuario"placeholder="Ingresa tu usuario"/>
-      </div>    
-    
-
-    <div>
-    <!--Campo para contraseña-->
-    <label for="Contraseña">Contraseña:</label>
-    <input type="password" placeholder="Contraseña:" id="Contraseña" name="Contraseña" minlength="10" required>    
-    </div>
-
-      <!--campo genero-->
-      <div>
-        <label for="Genero">Mujer</label> 
-        <input type="radio" id="Genero" name="Genero" value="Genero">
-        
-        <label for="Genero">Hombre</label> 
-        <input type="radio" id="Genero" name="Genero" value="Genero">
-        </div>
-      <!--boton para registrarse-->    
-       <input type="submit" value="Registrarse">   
-
-    </form>
+ <!--boton-->
+ <button type="submit">Registrarse</button>
+</form>
 </body>
 </html>

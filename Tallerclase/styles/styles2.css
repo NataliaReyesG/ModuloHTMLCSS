@@ -1,28 +1,49 @@
-/* Estilos generales*/
+/*Estilos generales*/
 
-*{ font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-     
+*{
+    font-family: Arial ;
+    margin: 0;
+
 }
+/*color de titulo*/
+.header-color{
+    color: darkorange;
+}
+/*imagen de fonto*/
 
 .bg-girasol {
-    background-image: url(girasol.jpg);
+    background-image: url(../img/girasol.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 30%;
 }
+/* contenedor formulario*/
 
-/* alineacion formulario*/
-.screen-from {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bg-white {
+    background-color: white;
+
 }
 
-/* titulo*/
-.header-color {
-    color: white;
-}    
+.form-container {
+    padding: 4rem;
+    width: 50%;
+    border-radius: 0.4rem;
+}
+/*contenedor inputs*/
 
-/*contenedores de inputs*/
+/*estilo de boton*/
+
+
+/*alineacion formulario*/
+.screen-form{
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+.item{
+    order:5;
+}
+
