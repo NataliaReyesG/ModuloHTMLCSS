@@ -2,11 +2,14 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+
 }
 
-/*color del titulo*/
+/*Titulo*/
 .header-color {
-  color: blue;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 136, 0);
 }
 
 /*Imagen de fondo*/
@@ -17,7 +20,6 @@
   background-position-y: 30%;
 }
 /*contenedor formulario*/
-
 .bg-white {
   background-color: #fff;
 }
@@ -36,7 +38,6 @@
     margin-top: 0.5rem;
     display: flex;
     flex-direction: column; 
-   
 }
 
 .input-container input {
@@ -48,33 +49,49 @@
 
 .checkbok-container {
     margin-top: 0.5rem;
-    
 }
 
-/*estilos de botones*/
+/*estilos de boton iniciar sesión*/
 .btn-login-container {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
-
-}
+    
+ }
 
 .btn-login-container button {
     padding: 0.7rem;
-    background-color: indigo;
+    background-color: green;
     border: 0;
     border-radius: 0.2rem;
     color: #fff;
     transition: background-color 0.5s;
     transition: padding 0.5s;
+   margin:3px;
 }
 
 .btn-login-container button:hover {
-    background-color: green;
+    background-color: rgb(255, 136, 0);
     padding: 1rem;
 }
 
+/*boton de registrarse*/
+a {
+  text-decoration:none;
+  background-color:  green;
+  padding: 0.7rem;
+  border: 0;
+  border-radius: 0.2rem;
+  color: #fff;
+  transition: background-color 0.5s;
+  transition: padding 0.5s;
+  margin: 3px;
+}
 
+a:hover{
+  background-color: rgb(255, 136, 0);
+  padding: 1rem;
+}
 
 /* alineacion formulario*/
 .screen-from {
